@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nachiket's Portfolio 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+  </head>
+  <body>
+    <nav id="desk-nav">
+      <div class="logos">Nachiket Patel</div>
+      <div>
+        <ul class="nav-Links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#experience">My Experience</a></li>
+          <li><a href="#Projects">My Projects</a></li>
+          <li><a href="#contact">Connect with Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="Mobile-nav">
+      <div class="logos">Nachiket Patel</div>
+      <div class="Mobile-Menu">
+        <div class="Mobile-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="Menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">My Experience</a></li>
+          <li><a href="#Projects" onclick="toggleMenu()">My Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Connect with Us</a></li>
+        </div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
