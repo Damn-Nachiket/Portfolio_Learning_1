@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nachiket's Portfolio 1</title>
+    <title>Nachiket's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaquery.css" />
   </head>
@@ -29,15 +29,47 @@
         </div>
         <div class="Menu-links">
           <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">My Experience</a></li>
+          <li>
+            <a href="#experience" onclick="toggleMenu()">My Experience</a>
+          </li>
           <li><a href="#Projects" onclick="toggleMenu()">My Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Connect with Us</a></li>
         </div>
       </div>
     </nav>
     <section id="Mine-Profile">
-      <div class="section_pic-container"> 
-        <img src="./Assets/profile-pic.png" alt="My Profile Picture">
+      <div class="section_pic-container">
+        <img src="./Assets/profile-pic.png" alt="My Profile Picture" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello , I'm</p>
+        <h1 class="title">Nachiket Patel</h1>
+        <p class="section_text_p2">Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./Assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info.
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./Assets/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/nachiket-patel-70ba85227/'"
+          />
+          <img
+            src="./Assets/github.png"
+            alt="My GitHub Profile"
+            class="icon"
+            onclick="location.href='https://github.com/Damn-Nachiket'"
+          />
+        </div>
       </div>
     </section>
     <script src="script.js"></script>
